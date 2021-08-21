@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 5% 0 0 0;
+}
+
+.iMac {
+    width: 90%;
+}
+
+h6 {
+    font-weight: 700 !important;
+}
+
+.btn {
+    border: solid 1px rgb(190, 190, 190) !important;
+    margin: 2% 0 2% 0;
+}
+
+#promo-btn {
+    margin: 0;
+}
+
+.form-label {
+    display: block;
+}
+
+.table {
+    width: 60% !important;
+}
+
+#promoInput {
+    display: inline;
+    width: 30%;
+}
+
+.promo-btn {
+    display: inline;
+}
+
+.display {
+    font-weight: 600;
+}
+
+.bottom-total {
+    border-top: solid 1px;
+}
+/* by default alert div hide */
+.hide {
+    display: none;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .iMac {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    h1 {
+        margin-top: 5% !important;
+    }
+
+    .table {
+        width: 80% !important;
+    }
+    #promoInput {
+        display: inline;
+        width: 40%;
+    }
+}
